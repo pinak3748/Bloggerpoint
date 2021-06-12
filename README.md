@@ -1,7 +1,7 @@
 # Blogging Site
 ![npm version](https://img.shields.io/npm/v/npm) ![MIT License](https://img.shields.io/github/license/yogeshwar24/blogging_site)  
 A blogging site written in [Node.js](https://www.nodejs.org) 
-The website is hosted here : [https://calm-spire-25460.herokuapp.com/](https://calm-spire-25460.herokuapp.com/)  
+The website is hosted here soon!
 ## Clone 
 You can either download the zip file or clone the repository by executing following command in terminal, after navigating to desired directory.    
 ```bash
