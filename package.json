@@ -1,0 +1,37 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines":{
+    "node": "10.15.3"
+    },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.4",
+    "audit": "0.0.6",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgen": "^2.0.14",
+    "mongoose": "^5.12.12",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemailer": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

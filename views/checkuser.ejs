@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('layouts/header'); -%>
+    <body>
+        <%- include('layouts/navbar'); -%>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('/img/contact-bg.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>Create New Post</h1>
+                            <span class="subheading">Have questions? I have answers.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <p class="text-center text-success"><%= msg %></p>
+            <p class="text-center text-danger"><%= err %></p>
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7 border">
+                        
+                        <div class="my-5 ">
+                            <form action="/reset/check_user" method="POST">
+                                <!-- <p>Please enter your Username </p> -->
+                                
+                                <div class="form-floating">
+                                    <label for="inputName ">Please enter your email</label> <br />
+                                    <input type="text" class="form-control" placeholder="Email" id="email" name="email">
+                                </div>
+
+                               
+                                  <br ><br >
+                                <button class="btn btn-primary text-uppercase" type="submit">Submit</button>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <%- include('layouts/footer'); -%>
+        <%- include('layouts/scripts'); -%>
+    </body>
+</html>
